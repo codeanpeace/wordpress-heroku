@@ -1,0 +1,109 @@
+-----------------------------------------------------------------------
+Ultrafire - Retina Responsive WordPress Theme v 1.04 - Changelog
+-----------------------------------------------------------------------
+
+
+
+
+
+Version 1.04 2014-06-25
+--------------------------
+- Fixed: Minor Bugs
+- Improved: Compatibility with popular plugins
+- Improved: Performance
+- Improved: SuperFish menu
+- Improved: Sticky menu feature
+- Improved: Responsive feature
+- Disabled: Sidebar generator
+- Added: RTL support
+- Updated: Scripts
+
+Changed files:
+- style.css
+- functions.php
+- template-archives.php
+- template-sitemap.php
+- template-contacts.php
+- page.php
+- single.php
+- /css/rwd-styles.css
+- /css/styles.php
+- /includes/class-tgm-plugin-activation.php
+- /admin/functions/functions.options.php
+
+New files:
+- rtl.css
+- /js/imagesloaded.pkgd.min.js
+- /js/jquery.infinitescroll.min.js
+- /js/hoverIntent.js
+- /js/superfish.min.js
+- /js/masonry.pkgd.min.js
+
+
+
+
+
+Version 1.03 2013-10-02
+--------------------------
+- Fixed: Minor Bugs
+- Improved: Small Slider widget
+
+Changed files:
+- style.css (changed only version)
+- header.php
+- \functions\ct-small-slider-widget.php
+
+
+
+
+
+Version 1.02 2013-06-17
+--------------------------
+- Added: Template for Blog page.
+- Added: A new tab in the "UltraFire Options" for the Twitter.
+- Fixed: Issue with Twitter widget.
+
+Changed files:
+- style.css (changed only version)
+- functions.php
+- \functions\ct-twitter-widget.php
+- \admin\functions\functions.options.php
+- \admin\assets\css\admin-style.css
+
+New files:
+- template-blog.php
+- \functions\twitteroauth.php
+- \admin\assets\images\icon-twitter.png
+
+
+
+
+
+Version 1.01 2013-06-08
+--------------------------
+- Improved: Code in theme files.
+- Fixed: Minor Bugs
+
+Changed files:
+- style.css
+- functions.php
+- single.php
+- content-video.php
+- content-standard.php
+- content-audio.php
+- \css\rwd-styles.css
+- \admin\functions\functions.options.php
+
+
+
+
+
+Version 1.0 2013-06-07
+--------------------------
+- Release
+
+
+
+
+ZERGE <zerge.com@gmail.com>
+http://color-theme.com/

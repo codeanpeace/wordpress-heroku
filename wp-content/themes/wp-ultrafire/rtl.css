@@ -1,0 +1,207 @@
+/*
+Theme Name: UltraFire - Retina Responsive WordPress Theme
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+caption,
+th,
+td {
+	text-align: right;
+}
+
+.widget-slider, .flex-carousel, .small-slider { direction: ltr; overflow: hidden; }
+.flexslider .slides > li {text-align:right;direction:rtl;}
+
+
+.category-item, .title-block .category-item {
+	left: inherit;
+	right: 20px;
+}
+
+#header .span10 { float: right; }
+#header .span2 { margin-left: 0; margin-right: 2.564102564102564%; }
+.search-block { float: left; }
+#logo { float: right; margin-left: 0; margin-right: 0; }
+.navigation { float: right; }
+
+.sf-menu ul {
+	left: inherit;
+	right: -1px;
+}
+
+.masonry-box {
+float: right;
+}
+
+.post-block {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+#blog-entry {
+	margin-right: 0;
+	margin-left: -20px;
+}
+
+.post-block .icon-views, .post-block .icon-likes {
+	left: 0;
+	right: 20px;
+}
+
+.sf-menu li li a {
+font-size: 13px;
+text-transform: none;
+font-weight: normal;
+position: initial;
+}
+
+.sf-menu ul ul {
+	left: inherit;
+	right: 100%;
+}
+
+.sf-menu > li {
+float: right;
+}
+
+.sf-menu li {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+ul.social-icons li, ul.social-icons.single-social-icons li {
+float: left;
+margin-left: 0;
+margin-right: 10px;
+}
+
+#footer .span6 { float: right; }
+
+.to-top {
+	right: inherit;
+	left: 5px;
+}
+
+ul.single-meta li {
+	float: right;
+	padding: 10px 0 10px 10px;
+}
+
+ul.single-meta {
+margin: 0 20px 0 0;
+}
+
+ul.single-meta li [class^="icon-"], ul.single-meta li .post-like .qtip {
+margin-right: 0;
+margin-left: 3px;
+}
+
+ul.social-icons li, ul.social-icons.single-social-icons li {
+float: left;
+margin-left: 10px;
+margin-right: 0;
+}
+
+#author-avatar {
+float: right;
+padding: 0px 0 20px 15px;
+}
+
+.comment-avatar {
+float: right;
+margin-right: 0;
+margin-left: 15px;
+}
+
+.reply { float: left; }
+
+#comments .edit-link { float: right; }
+
+.edit-link .icon-pencil { padding-left: 5px; padding-right: 0; }
+
+.nav-previous { float: right; }
+.nav-next { float: left; text-align: left; }
+
+.page-title-bar .span9,
+.page-title-bar .container .span6:first-child { float: right;}
+
+.page-title-bar .span3,
+.page-title-bar .container .span6:last-child { margin-left: 0; margin-right: 2.564102564102564%; }
+
+.nav-single-top {
+float: left;
+}
+
+.nav-previous-top, .nav-next-top { float: left; margin-right: 10px; margin-left: 0; }
+
+.widget-post-small-thumb { float: right; }
+.widget-post-small-thumb img {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.related-posts-single li {
+float: right;
+margin-right: 0;
+margin-left: 9px;
+}
+
+.related-posts-single,
+[class^="ct-instagram-"],
+[class^="ct-flickr-"] {
+margin: -9px 0 0 -9px;
+}
+
+.date-widget [class^="icon-"] {
+margin-left: 3px;
+margin-right: 0;
+}
+
+[class^="ct-instagram-"] li,
+[class^="ct-flickr-"] li {
+float: right;
+margin-right: 0;
+margin-left: 9px;
+}
+
+.page-desc { float: left; }
+
+.page #comments { padding: 20px; }
+
+#ajax-contact-form .span5 { float: right; }
+
+#ajax-contact-form .input-prepend .add-on:first-child,
+#ajax-contact-form .input-prepend .btn:first-child {
+	-webkit-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+
+#ajax-contact-form .input-prepend input {
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+
+#contacts-form .btn { float: left; }
+
+.carousel-thumb .title-mask {
+	left: inherit;
+	right: 5px;
+}
+
+.pagination span, .pagination a, .pagination .current {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}

@@ -1,0 +1,195 @@
+
+/* Theme Color */
+#logo { background-color: #db5858; }
+.flex-carousel { border-top: 8px solid #db5858; border-bottom: 8px solid #db5858; }
+
+.widget:hover .widget-title { border-bottom: 1px solid #db5858; }
+.widget:hover .after-widget-title { background-color: #db5858; }
+
+.pagination .current { background-color: #db5858; }
+.pagination a:hover { background-color: #db5858; }
+
+.to-top:hover { background-color: #db5858; }
+
+.flex-direction-nav a:hover { background-color: #db5858; }
+
+.input-append .add-on, .input-prepend .add-on {
+	background-color: #db5858;
+	border: 1px solid #db5858;
+}
+
+.recent-posts-widget .post-title a:hover,
+.popular-posts-widget .post-title a:hover,
+.small-slider .entry-title a:hover {
+	color: #db5858;
+}
+
+.entry-single-meta { background-color: #db5858; }
+
+.accordion-heading { background-color: #db5858; }
+
+#wp-calendar td#today { background-color: #db5858; }
+
+.overall_score, .overall_score .left_over_score { background-color: #db5858; }
+
+/* Body background Color */
+body, .body_class { background-color: #2B2E2F; }
+
+/* Menu Position */
+	.navigation { float: left }
+	
+
+/* Menu Background Color */
+.sf-menu li { background-color: #515461; }
+
+/* Menu Item Shadow */
+	.sf-menu li {
+		box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+	}
+
+/* DropDown Menu Background Color */
+.sf-menu li ul li { background-color: #FFFFFF; }
+
+/* DropDown Menu Hover Background Color */
+.sf-menu ul > li:hover { background-color: #EBEBEB; }
+
+/* DropDown Menu Text Color */
+.sf-menu .sub-menu li a { color: #333333 !important; }
+
+/* DropDown Menu Items Bottom Border */
+.sf-menu ul li {
+	border-bottom: 1px solid #dfdfdf; 
+}
+
+/* Top Level Menu Font And text-Transform */
+.sf-menu a {
+	text-transform: Uppercase;
+	font-size: 16px;
+	color: #FFFFFF !important;
+	font-style: normal;	
+		
+}
+
+a, a:link, a:visited { color: #db5858; }
+a:hover { color: #313131; }
+
+/* Homepage Columns */
+.post-block {
+		width: 277px; margin-right: 20px; margin-bottom: 20px;	
+		
+	
+		
+			
+				
+}
+
+
+/* Category page Columns */
+.archive .post-block {
+	width: 370px;		
+		
+
+				
+				
+}
+
+.search-results .post-block {
+	width: 370px;		
+		
+
+				
+				
+}
+
+
+.pagination-top-line , .pagination-top-line .center-line { background-color: #FFFFFF; }
+
+/* 
+*	=================================================================================================================================================
+*	Page Bar Title 
+*	=================================================================================================================================================
+*/
+
+.page-title-bar {
+	background-color: #2B2E30;
+}
+
+
+.page-title-bar {
+		background-image: url();
+	background-repeat: No-Repeat;
+	background-position: top left	}
+
+/* Heading Styles */
+h1 {
+	color: #313131;
+	font-style: normal;	
+		
+	font-size: 38px; 
+	line-height: 40px; 
+}
+
+h2 {
+	color: #313131;
+	font-style: normal;	
+		
+	font-size: 31px; 
+	line-height: 40px; 
+}
+
+h3 {
+	color: #313131;
+	font-style: normal;	
+		
+	font-size: 24px; 
+	line-height: 40px; 
+}
+
+h4 {
+	color: #313131;
+	font-style: normal;	
+		
+	font-size: 17px; 
+	line-height: 20px; 
+}
+
+h5 {
+	color: #313131;
+	font-style: normal;	
+		
+	font-size: 14px; 
+	line-height: 20px; 
+}
+
+h6 {
+	color: #313131;
+	font-style: normal;	
+		
+	font-size: 12px; 
+	line-height: 20px; 
+}
+
+/* 
+*	=================================================================================================================================================
+*	Footer 
+*	=================================================================================================================================================
+*/
+
+#footer { background-color: #222425; } 
+
+.copyright-info {
+	color: #FFF;
+	font-size: 11px;	
+}
+
+/* 
+*	=================================================================================================================================================
+*	Single Post
+*	=================================================================================================================================================
+*/
+
+.entry-single-meta {
+	background-color: #db5858;
+}

@@ -1,0 +1,33 @@
+
+/* Theme Color */
+#logo { background-color: #b86e32; }
+.flex-carousel { border-top: 8px solid #b86e32; border-bottom: 8px solid #b86e32; }
+
+.widget:hover .widget-title { border-bottom: 1px solid #b86e32; }
+.widget:hover .after-widget-title { background-color: #b86e32; }
+
+.pagination .current { background-color: #b86e32; }
+.pagination a:hover { background-color: #b86e32; }
+
+.to-top:hover { background-color: #b86e32; }
+
+.flex-direction-nav a:hover { background-color: #b86e32; }
+
+.input-append .add-on, .input-prepend .add-on {
+	background-color: #b86e32;
+	border: 1px solid #b86e32;
+}
+
+.recent-posts-widget .post-title a:hover,
+.popular-posts-widget .post-title a:hover,
+.small-slider .entry-title a:hover {
+	color: #b86e32;
+}
+
+.entry-single-meta { background-color: #b86e32; }
+
+.accordion-heading { background-color: #b86e32; }
+
+#wp-calendar td#today { background-color: #b86e32; }
+
+.overall_score, .overall_score .left_over_score { background-color: #b86e32; }
